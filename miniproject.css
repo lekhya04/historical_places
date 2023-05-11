@@ -1,0 +1,84 @@
+header{
+    color:blue;
+    background-image: linear-gradient(120deg,orange,white,green);
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+}
+footer{
+    color: rgb(42, 61, 165);
+    background-image: linear-gradient(120deg,orange,white,green);
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    box-shadow: 10px -5px 5px black;
+    border-radius: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+}
+#a{
+    position: absolute;
+    top: 50px;
+    color: 49BEA2;
+}
+#b{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    left: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(19, 6, 199);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/157/645/original/indian-flag-theme-republic-day-watercolor-texture-patriotic-background-free-vector.jpg")
+}
+#c{
+    width: 97%;
+    max-width: 3000px;
+    min-height: 100px;
+    margin: 0px;
+    display: grid;
+    position: absolute;
+    top: 630px;
+    grid-template-columns: 2fr 8fr;
+}
+#d{
+    color: greenyellow;
+    font-style: italic;
+}
+#e{
+    position: absolute;
+    bottom: 60px;
+    color: greenyellow;
+}
+#f{
+    margin:0%;
+    padding-right: 20px;
+    float:inline-end;
+    font-size: medium;
+    clear: both;
+    color: rgb(62, 129, 0);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left {
+    position: initial;
+    box-shadow: 10px 10px 5px rgb(255, 153, 0);
+    padding: 20px;
+
+}
+.right {
+    position: initial;
+    padding: 20px;
+    color: white;
+    font-style: italic;
+    font-size: medium;
+}
